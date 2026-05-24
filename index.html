@@ -3,356 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WarisanKating - Home</title>
+    <title>Login - WarisanKating</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="app-shell">
-    <header class="navbar">
-      <div class="navbar-inner">
-        <a class="brand" href="index.html">
-          <img class="brand-logo" src="images/Logo.svg" alt="WarisanKating" />
-        </a>
-        <div class="nav-search">
-          <input type="text" placeholder="Cari buku, alat, jas lab..." />
-          <span>Q</span>
-        </div>
-        <div class="nav-actions">
-          <span class="nav-icon">
-            <img src="images/Notifikasi.svg" alt="Notifikasi" />
-          </span>
-          <a class="nav-avatar" href="profile.html">
-            <img src="images/Prabu.png" alt="Foto Profil" />
-          </a>
-        </div>
-      </div>
-    </header>
+  <body>
+    <main class="page">
+      <section class="card">
+        <div class="login-left">
+          <div>
+            <h1 class="login-title">Login</h1>
+            <p class="login-subtitle">Preloved barang dari kating tercinta</p>
+          </div>
 
-    <nav class="top-icons">
-      <div class="top-icons-inner">
-        <a class="top-link is-active" href="index.html">
-          <img src="images/Home.svg" alt="Beranda" />
-        </a>
-        <a class="top-link" href="sewa.html">
-          <img src="images/Pesanan.svg" alt="Sewa" />
-        </a>
-        <a class="top-link" href="chat-list.html">
-          <img src="images/Chat.svg" alt="Chat" />
-        </a>
-      </div>
-    </nav>
+          <button class="social-btn" type="button">
+            <img src="images/Google.svg" alt="Google" />
+            <span>Continue with Google</span>
+          </button>
 
-    <main class="page-content">
-      <section class="hero">
-        <span class="hero-badge">Khusus Mahasiswa Terverifikasi</span>
-        <h1 class="hero-title">Jual, Beli &amp; Sewa Perlengkapan Kuliah</h1>
-        <p class="hero-subtitle">
-          Transaksi aman antar mahasiswa kampus COD langsung di kampus tanpa
-          ribet ekspedisi
-        </p>
-      </section>
+          <div class="social-row">
+            <button class="social-icon" type="button">
+              <img src="images/Facebook.svg" alt="Facebook" />
+            </button>
+            <button class="social-icon" type="button">
+              <img src="images/Discord.svg" alt="Discord" />
+            </button>
+            <button class="social-icon" type="button">
+              <img src="images/Reddit.svg" alt="Reddit" />
+            </button>
+          </div>
 
-      <section>
-        <div class="section-title">Kategori</div>
-        <div class="category-grid">
-          <div class="category-card">
-            <img src="images/KategoriBuku.png" alt="Buku" />
-            <span>Buku</span>
-          </div>
-          <div class="category-card">
-            <img src="images/KategoriAlat.png" alt="Alat" />
-            <span>Alat</span>
-          </div>
-          <div class="category-card">
-            <img src="images/KategoriJas.png" alt="Jas" />
-            <span>Jas</span>
-          </div>
-          <div class="category-card">
-            <img src="images/kategoriElektronik.png" alt="Elektronik" />
-            <span>Elektronik</span>
-          </div>
-        </div>
-      </section>
+          <div class="divider"></div>
 
-      <section>
-        <div class="section-title">Semua Barang</div>
-        <div class="filter-row">
-          <span class="chip is-active">Semua</span>
-          <span class="chip">FMIPA</span>
-          <span class="chip">FILKOM</span>
-          <span class="chip">FH</span>
-          <span class="chip">FT</span>
-          <span class="chip">FK</span>
-        </div>
-      </section>
-
-      <section class="item-grid">
-        <a class="item-card" href="detail.html?item=laptop">
-          <div class="item-image">
-            <img src="images/Laptop.png" alt="Laptop" />
-          </div>
-          <div class="item-body">
-            <div class="item-tag">
-              <img src="images/sewa.svg" alt="Sewa" />
-              <span>Sewa</span>
-            </div>
-            <div class="item-name">Laptop</div>
-            <div class="item-meta">Penjual: Prabu Ganteng</div>
-            <div class="item-price">Rp 100.000/hari</div>
-            <div class="item-row">
-              <div class="item-location">
-                <img src="images/lokasi.svg" alt="Lokasi" />
-                <span>FILKOM</span>
-              </div>
-              <div class="item-rating">90%</div>
-            </div>
-            <div class="item-progress"><span style="width: 90%"></span></div>
-          </div>
-        </a>
-        <a class="item-card" href="detail.html?item=buku-sql">
-          <div class="item-image">
-            <img src="images/buku%20ql.png" alt="Buku SQL" />
-          </div>
-          <div class="item-body">
-            <div class="item-tag">
-              <img src="images/jual.svg" alt="Jual" />
-              <span>Jual</span>
-            </div>
-            <div class="item-name">Buku Pemrograman SQL</div>
-            <div class="item-meta">Penjual: Muhamad Yusuf Zaki</div>
-            <div class="item-price">Rp 100.000</div>
-            <div class="item-row">
-              <div class="item-location">
-                <img src="images/lokasi.svg" alt="Lokasi" />
-                <span>FILKOM</span>
-              </div>
-              <div class="item-rating">85%</div>
-            </div>
-            <div class="item-progress"><span style="width: 85%"></span></div>
-          </div>
-        </a>
-        <a class="item-card" href="detail.html?item=buku-kalkulus">
-          <div class="item-image">
-            <img src="images/Buku%20kalkulus.png" alt="Buku Kalkulus" />
-          </div>
-          <div class="item-body">
-            <div class="item-tag">
-              <img src="images/jual.svg" alt="Jual" />
-              <span>Jual</span>
-            </div>
-            <div class="item-name">Buku Kalkulus</div>
-            <div class="item-meta">Penjual: Briankung</div>
-            <div class="item-price">Rp 80.000</div>
-            <div class="item-row">
-              <div class="item-location">
-                <img src="images/lokasi.svg" alt="Lokasi" />
-                <span>FMIPA</span>
-              </div>
-              <div class="item-rating">80%</div>
-            </div>
-            <div class="item-progress"><span style="width: 80%"></span></div>
-          </div>
-        </a>
-        <a class="item-card" href="detail.html?item=mouse">
-          <div class="item-image">
-            <img src="images/tikus.png" alt="Mouse" />
-          </div>
-          <div class="item-body">
-            <div class="item-tag">
-              <img src="images/jual.svg" alt="Jual" />
-              <span>Jual</span>
-            </div>
-            <div class="item-name">Mouse</div>
-            <div class="item-meta">Penjual: Prabu Ganteng</div>
-            <div class="item-price">Rp 30.000</div>
-            <div class="item-row">
-              <div class="item-location">
-                <img src="images/lokasi.svg" alt="Lokasi" />
-                <span>FILKOM</span>
-              </div>
-              <div class="item-rating">75%</div>
-            </div>
-            <div class="item-progress"><span style="width: 75%"></span></div>
-          </div>
-        </a>
-        <a class="item-card" href="detail.html?item=headset">
-          <div class="item-image">
-            <img src="images/ProdukHeadset.png" alt="Headset Gaming" />
-          </div>
-          <div class="item-body">
-            <div class="item-tag">
-              <img src="images/jual.svg" alt="Jual" />
-              <span>Jual</span>
-            </div>
-            <div class="item-name">Headset Gaming</div>
-            <div class="item-meta">Penjual: Briankung</div>
-            <div class="item-price">Rp 120.000</div>
-            <div class="item-row">
-              <div class="item-location">
-                <img src="images/lokasi.svg" alt="Lokasi" />
-                <span>FILKOM</span>
-              </div>
-              <div class="item-rating">88%</div>
-            </div>
-            <div class="item-progress"><span style="width: 88%"></span></div>
-          </div>
-        </a>
-        <a class="item-card" href="detail.html?item=kalkulator">
-          <div class="item-image">
-            <img
-              src="images/ProdukKalkulator.png"
-              alt="Kalkulator Scientific"
+          <div class="field">
+            <label for="email">Email or Phone</label>
+            <input
+              id="email"
+              type="text"
+              placeholder="Eg. 1234567/abc@example.com"
             />
           </div>
-          <div class="item-body">
-            <div class="item-tag">
-              <img src="images/jual.svg" alt="Jual" />
-              <span>Jual</span>
-            </div>
-            <div class="item-name">Kalkulator Scientific</div>
-            <div class="item-meta">Penjual: Prabu Ganteng</div>
-            <div class="item-price">Rp 45.000</div>
-            <div class="item-row">
-              <div class="item-location">
-                <img src="images/lokasi.svg" alt="Lokasi" />
-                <span>FILKOM</span>
-              </div>
-              <div class="item-rating">92%</div>
-            </div>
-            <div class="item-progress"><span style="width: 92%"></span></div>
-          </div>
-        </a>
-        <a class="item-card" href="detail.html?item=buku-sabatta">
-          <div class="item-image">
-            <img src="images/ProdukSobotta.png" alt="Buku Sabotto" />
-          </div>
-          <div class="item-body">
-            <div class="item-tag">
-              <img src="images/jual.svg" alt="Jual" />
-              <span>Jual</span>
-            </div>
-            <div class="item-name">Buku Sobotta</div>
-            <div class="item-meta">Penjual: Nayaka Neobeast</div>
-            <div class="item-price">Rp 95.000</div>
-            <div class="item-row">
-              <div class="item-location">
-                <img src="images/lokasi.svg" alt="Lokasi" />
-                <span>FMIPA</span>
-              </div>
-              <div class="item-rating">86%</div>
-            </div>
-            <div class="item-progress"><span style="width: 86%"></span></div>
-          </div>
-        </a>
-        <a class="item-card" href="detail.html?item=penggaris-t">
-          <div class="item-image">
-            <img src="images/ProdukPenggaris.png" alt="Penggaris T" />
-          </div>
-          <div class="item-body">
-            <div class="item-tag">
-              <img src="images/jual.svg" alt="Jual" />
-              <span>Jual</span>
-            </div>
-            <div class="item-name">Penggaris T</div>
-            <div class="item-meta">Penjual: Bli Fariz</div>
-            <div class="item-price">Rp 18.000</div>
-            <div class="item-row">
-              <div class="item-location">
-                <img src="images/lokasi.svg" alt="Lokasi" />
-                <span>FT</span>
-              </div>
-              <div class="item-rating">84%</div>
-            </div>
-            <div class="item-progress"><span style="width: 84%"></span></div>
-          </div>
-        </a>
-        <a class="item-card" href="detail.html?item=jas-lab">
-          <div class="item-image">
-            <img src="images/ProdukJaslab.png" alt="Jas Lab" />
-          </div>
-          <div class="item-body">
-            <div class="item-tag">
-              <img src="images/sewa.svg" alt="Sewa" />
-              <span>Sewa</span>
-            </div>
-            <div class="item-name">Jas Lab</div>
-            <div class="item-meta">Penjual: Repuy</div>
-            <div class="item-price">Rp 25.000/hari</div>
-            <div class="item-row">
-              <div class="item-location">
-                <img src="images/lokasi.svg" alt="Lokasi" />
-                <span>FK</span>
-              </div>
-              <div class="item-rating">90%</div>
-            </div>
-            <div class="item-progress"><span style="width: 90%"></span></div>
-          </div>
-        </a>
-        <a class="item-card" href="detail.html?item=tablet">
-          <div class="item-image">
-            <img src="images/ProdukTablet.png" alt="Tablet" />
-          </div>
-          <div class="item-body">
-            <div class="item-tag">
-              <img src="images/sewa.svg" alt="Sewa" />
-              <span>Sewa</span>
-            </div>
-            <div class="item-name">Tablet</div>
-            <div class="item-meta">Penjual: Nayaka Neobeast</div>
-            <div class="item-price">Rp 90.000/hari</div>
-            <div class="item-row">
-              <div class="item-location">
-                <img src="images/lokasi.svg" alt="Lokasi" />
-                <span>FILKOM</span>
-              </div>
-              <div class="item-rating">87%</div>
-            </div>
-            <div class="item-progress"><span style="width: 87%"></span></div>
-          </div>
-        </a>
-        <a class="item-card" href="detail.html?item=keyboard">
-          <div class="item-image">
-            <img src="images/ProdukKeyboard.png" alt="Keyboard Mechanical" />
-          </div>
-          <div class="item-body">
-            <div class="item-tag">
-              <img src="images/jual.svg" alt="Jual" />
-              <span>Jual</span>
-            </div>
-            <div class="item-name">Keyboard Mechanical</div>
-            <div class="item-meta">Penjual: Muhamad Yusuf Zaki</div>
-            <div class="item-price">Rp 200.000</div>
-            <div class="item-row">
-              <div class="item-location">
-                <img src="images/lokasi.svg" alt="Lokasi" />
-                <span>FILKOM</span>
-              </div>
-              <div class="item-rating">91%</div>
-            </div>
-            <div class="item-progress"><span style="width: 91%"></span></div>
-          </div>
-        </a>
-        <a class="item-card" href="detail.html?item=flashdisk">
-          <div class="item-image">
-            <img src="images/ProdukFlashdisk.png" alt="Flashdisk 64GB" />
-          </div>
-          <div class="item-body">
-            <div class="item-tag">
-              <img src="images/jual.svg" alt="Jual" />
-              <span>Jual</span>
-            </div>
-            <div class="item-name">Flashdisk 64GB</div>
-            <div class="item-meta">Penjual: Muhamad Yusuf Zaki</div>
-            <div class="item-price">Rp 35.000</div>
-            <div class="item-row">
-              <div class="item-location">
-                <img src="images/lokasi.svg" alt="Lokasi" />
-                <span>FILKOM</span>
-              </div>
-              <div class="item-rating">83%</div>
-            </div>
-            <div class="item-progress"><span style="width: 83%"></span></div>
-          </div>
-        </a>
+
+          <a class="primary-btn" href="home.html"
+            >Continue with Email or Phone</a
+          >
+        </div>
+
+        <aside class="side-panel">
+          <img class="logo-full" src="images/Logo.svg" alt="WarisanKating" />
+        </aside>
       </section>
     </main>
     <script src="script.js"></script>

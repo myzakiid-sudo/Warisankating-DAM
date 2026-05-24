@@ -176,7 +176,7 @@
       sellerKey: "prabu",
     },
     "buku-sabatta": {
-      title: "Buku Sabatta",
+      title: "Buku Sobotta",
       price: "Rp 95.000",
       tag: "Untuk Dijual",
       tagIcon: "images/jual.svg",

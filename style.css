@@ -241,6 +241,12 @@ input {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
+.search-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
 .nav-search input {
   border: none;
   outline: none;
@@ -251,15 +257,6 @@ input {
   display: flex;
   align-items: center;
   gap: 12px;
-}
-
-.pill {
-  padding: 8px 16px;
-  border-radius: 999px;
-  background: var(--teal-900);
-  color: var(--white);
-  font-weight: 600;
-  font-size: 13px;
 }
 
 .nav-icon {
@@ -362,6 +359,15 @@ input {
   border-radius: 999px;
   font-weight: 600;
   font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.hero-badge img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
 }
 
 .hero-title {
