@@ -290,6 +290,14 @@ input {
   place-items: center;
   font-weight: 700;
   color: var(--teal-900);
+  overflow: hidden;
+}
+
+.nav-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .top-icons {
@@ -513,6 +521,19 @@ input {
   color: var(--gray-600);
 }
 
+.item-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.item-rating {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--teal-900);
+}
+
 .item-location img {
   width: 14px;
   height: 14px;
@@ -671,6 +692,7 @@ input {
   place-items: center;
   font-weight: 700;
   color: var(--white);
+  overflow: hidden;
 }
 
 .avatar img {

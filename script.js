@@ -40,6 +40,219 @@
       incoming: "Masih ada. Mau ambil kapan?",
       quick: "Hari ini bisa?",
     },
+    prabu: {
+      name: "Prabu Ganteng",
+      avatar: "images/Prabu.png",
+      topic: "Laptop",
+      outgoing: "Halo, laptopnya masih tersedia?",
+      incoming: "Masih ada. Mau sewa berapa hari?",
+      quick: "Boleh sewa 2 hari?",
+    },
+  };
+
+  const sellers = {
+    prabu: {
+      name: "Prabu Ganteng",
+      avatar: "images/Prabu.png",
+      info: "Sistem Informasi - Angkatan 2023",
+    },
+    zaki: {
+      name: "Muhamad Yusuf Zaki",
+      avatar: "images/ProfileZaki.png",
+      info: "Sistem Informasi - Angkatan 2023",
+    },
+    brian: {
+      name: "Briankung",
+      avatar: "images/ProfileBrian.png",
+      info: "Teknik Informatika - Angkatan 2022",
+    },
+    fariz: {
+      name: "Bli Fariz",
+      avatar: "images/ProfileFariz.png",
+      info: "Teknik Sipil - Angkatan 2021",
+    },
+    reva: {
+      name: "Repuy",
+      avatar: "images/ProfileReva.png",
+      info: "Kedokteran - Angkatan 2022",
+    },
+    nayaka: {
+      name: "Nayaka Neobeast",
+      avatar: "images/ProfileNayaka.png",
+      info: "Sistem Komputer - Angkatan 2022",
+    },
+  };
+
+  const detailData = {
+    "buku-sql": {
+      title: "Buku Pemrograman SQL",
+      price: "Rp 100.000",
+      tag: "Untuk Dijual",
+      tagIcon: "images/jual.svg",
+      location: "FILKOM",
+      locationIcon: "images/lokasi.svg",
+      conditionPercent: 85,
+      conditionText: "85% - Kondisi sangat baik",
+      mainImage: "images/buku%20ql.png",
+      thumbs: ["images/buku%20ql.png", "images/buku%20ql.png"],
+      sellerKey: "zaki",
+    },
+    "buku-kalkulus": {
+      title: "Buku Kalkulus",
+      price: "Rp 80.000",
+      tag: "Untuk Dijual",
+      tagIcon: "images/jual.svg",
+      location: "FMIPA",
+      locationIcon: "images/lokasi.svg",
+      conditionPercent: 80,
+      conditionText: "80% - Kondisi baik",
+      mainImage: "images/Buku%20kalkulus.png",
+      thumbs: ["images/Buku%20kalkulus.png", "images/Buku%20kalkulus.png"],
+      sellerKey: "brian",
+    },
+    laptop: {
+      title: "Laptop",
+      price: "Rp 100.000/hari",
+      tag: "Untuk Disewa",
+      tagIcon: "images/sewa.svg",
+      location: "FILKOM",
+      locationIcon: "images/lokasi.svg",
+      conditionPercent: 90,
+      conditionText: "90% - Kondisi sangat baik",
+      mainImage: "images/Laptop.png",
+      thumbs: ["images/Laptop.png", "images/Laptop.png"],
+      sellerKey: "prabu",
+    },
+    kalkulator: {
+      title: "Kalkulator Scientific",
+      price: "Rp 45.000",
+      tag: "Untuk Dijual",
+      tagIcon: "images/jual.svg",
+      location: "FILKOM",
+      locationIcon: "images/lokasi.svg",
+      conditionPercent: 95,
+      conditionText: "95% - Kondisi sangat baik",
+      mainImage: "images/ProdukKalkulator.png",
+      thumbs: ["images/ProdukKalkulator.png", "images/ProdukKalkulator.png"],
+      sellerKey: "prabu",
+    },
+    mouse: {
+      title: "Mouse",
+      price: "Rp 30.000",
+      tag: "Untuk Dijual",
+      tagIcon: "images/jual.svg",
+      location: "FILKOM",
+      locationIcon: "images/lokasi.svg",
+      conditionPercent: 80,
+      conditionText: "80% - Kondisi baik",
+      mainImage: "images/tikus.png",
+      thumbs: ["images/tikus.png", "images/tikus.png"],
+      sellerKey: "prabu",
+    },
+    headset: {
+      title: "Headset Gaming",
+      price: "Rp 120.000",
+      tag: "Untuk Dijual",
+      tagIcon: "images/jual.svg",
+      location: "FILKOM",
+      locationIcon: "images/lokasi.svg",
+      conditionPercent: 88,
+      conditionText: "88% - Kondisi sangat baik",
+      mainImage: "images/ProdukHeadset.png",
+      thumbs: ["images/ProdukHeadset.png", "images/ProdukHeadset.png"],
+      sellerKey: "brian",
+    },
+    "calculator-casio": {
+      title: "Kalkulator Casio",
+      price: "Rp 55.000",
+      tag: "Untuk Dijual",
+      tagIcon: "images/jual.svg",
+      location: "FILKOM",
+      locationIcon: "images/lokasi.svg",
+      conditionPercent: 92,
+      conditionText: "92% - Kondisi sangat baik",
+      mainImage: "images/ProdukKalkulator.png",
+      thumbs: ["images/ProdukKalkulator.png", "images/ProdukKalkulator.png"],
+      sellerKey: "prabu",
+    },
+    "buku-sabatta": {
+      title: "Buku Sabatta",
+      price: "Rp 95.000",
+      tag: "Untuk Dijual",
+      tagIcon: "images/jual.svg",
+      location: "FMIPA",
+      locationIcon: "images/lokasi.svg",
+      conditionPercent: 86,
+      conditionText: "86% - Kondisi sangat baik",
+      mainImage: "images/ProdukSobotta.png",
+      thumbs: ["images/ProdukSobotta.png", "images/ProdukSobotta.png"],
+      sellerKey: "nayaka",
+    },
+    "penggaris-t": {
+      title: "Penggaris T",
+      price: "Rp 18.000",
+      tag: "Untuk Dijual",
+      tagIcon: "images/jual.svg",
+      location: "FT",
+      locationIcon: "images/lokasi.svg",
+      conditionPercent: 84,
+      conditionText: "84% - Kondisi baik",
+      mainImage: "images/ProdukPenggaris.png",
+      thumbs: ["images/ProdukPenggaris.png", "images/ProdukPenggaris.png"],
+      sellerKey: "fariz",
+    },
+    "jas-lab": {
+      title: "Jas Lab",
+      price: "Rp 25.000/hari",
+      tag: "Untuk Disewa",
+      tagIcon: "images/sewa.svg",
+      location: "FK",
+      locationIcon: "images/lokasi.svg",
+      conditionPercent: 90,
+      conditionText: "90% - Kondisi sangat baik",
+      mainImage: "images/ProdukJaslab.png",
+      thumbs: ["images/ProdukJaslab.png", "images/ProdukJaslab.png"],
+      sellerKey: "reva",
+    },
+    tablet: {
+      title: "Tablet",
+      price: "Rp 90.000/hari",
+      tag: "Untuk Disewa",
+      tagIcon: "images/sewa.svg",
+      location: "FILKOM",
+      locationIcon: "images/lokasi.svg",
+      conditionPercent: 87,
+      conditionText: "87% - Kondisi sangat baik",
+      mainImage: "images/ProdukTablet.png",
+      thumbs: ["images/ProdukTablet.png", "images/ProdukTablet.png"],
+      sellerKey: "nayaka",
+    },
+    keyboard: {
+      title: "Keyboard Mechanical",
+      price: "Rp 200.000",
+      tag: "Untuk Dijual",
+      tagIcon: "images/jual.svg",
+      location: "FILKOM",
+      locationIcon: "images/lokasi.svg",
+      conditionPercent: 91,
+      conditionText: "91% - Kondisi sangat baik",
+      mainImage: "images/ProdukKeyboard.png",
+      thumbs: ["images/ProdukKeyboard.png", "images/ProdukKeyboard.png"],
+      sellerKey: "zaki",
+    },
+    flashdisk: {
+      title: "Flashdisk 64GB",
+      price: "Rp 35.000",
+      tag: "Untuk Dijual",
+      tagIcon: "images/jual.svg",
+      location: "FILKOM",
+      locationIcon: "images/lokasi.svg",
+      conditionPercent: 83,
+      conditionText: "83% - Kondisi baik",
+      mainImage: "images/ProdukFlashdisk.png",
+      thumbs: ["images/ProdukFlashdisk.png", "images/ProdukFlashdisk.png"],
+      sellerKey: "zaki",
+    },
   };
 
   const chatAvatar = document.querySelector("#chat-avatar");
@@ -59,207 +272,18 @@
   ) {
     const params = new URLSearchParams(window.location.search);
     const key = params.get("user") || "reva";
+    const itemKey = params.get("item");
     const data = chatProfiles[key] || chatProfiles.reva;
+    const itemData = itemKey ? detailData[itemKey] : null;
 
     chatAvatar.src = data.avatar;
     chatAvatar.alt = data.name;
     chatName.textContent = data.name;
-    chatTopic.textContent = data.topic;
+    chatTopic.textContent = itemData ? itemData.title : data.topic;
     chatOutgoing.childNodes[0].textContent = `${data.outgoing} `;
     chatIncoming.childNodes[0].textContent = `${data.incoming} `;
     chatQuick.textContent = data.quick;
   }
-
-  const detailData = {
-    "buku-sql": {
-      title: "Buku Pemrograman SQL",
-      price: "Rp 100.000",
-      tag: "Untuk Dijual",
-      tagIcon: "images/jual.svg",
-      location: "FILKOM",
-      locationIcon: "images/lokasi.svg",
-      conditionPercent: 85,
-      conditionText: "85% - Kondisi sangat baik",
-      mainImage: "images/buku%20ql.png",
-      thumbs: ["images/buku%20ql.png", "images/buku%20ql.png"],
-    },
-    "buku-kalkulus": {
-      title: "Buku Kalkulus",
-      price: "Rp 80.000",
-      tag: "Untuk Dijual",
-      tagIcon: "images/jual.svg",
-      location: "FMIPA",
-      locationIcon: "images/lokasi.svg",
-      conditionPercent: 80,
-      conditionText: "80% - Kondisi baik",
-      mainImage: "images/Buku%20kalkulus.png",
-      thumbs: ["images/Buku%20kalkulus.png", "images/Buku%20kalkulus.png"],
-    },
-    laptop: {
-      title: "Laptop",
-      price: "Rp 100.000/hari",
-      tag: "Untuk Disewa",
-      tagIcon: "images/sewa.svg",
-      location: "FILKOM",
-      locationIcon: "images/lokasi.svg",
-      conditionPercent: 90,
-      conditionText: "90% - Kondisi sangat baik",
-      mainImage: "images/Laptop.png",
-      thumbs: ["images/Laptop.png", "images/Laptop.png"],
-    },
-    kalkulator: {
-      title: "Kalkulator Scientific",
-      price: "Rp 45.000",
-      tag: "Untuk Dijual",
-      tagIcon: "images/jual.svg",
-      location: "FILKOM",
-      locationIcon: "images/lokasi.svg",
-      conditionPercent: 95,
-      conditionText: "95% - Kondisi sangat baik",
-      mainImage: "images/Kalkulator.png",
-      thumbs: ["images/Kalkulator.png", "images/Kalkulator.png"],
-    },
-    mouse: {
-      title: "Mouse",
-      price: "Rp 30.000",
-      tag: "Untuk Dijual",
-      tagIcon: "images/jual.svg",
-      location: "FILKOM",
-      locationIcon: "images/lokasi.svg",
-      conditionPercent: 80,
-      conditionText: "80% - Kondisi baik",
-      mainImage: "images/tikus.png",
-      thumbs: ["images/tikus.png", "images/tikus.png"],
-    },
-    headset: {
-      title: "Headset Gaming",
-      price: "Rp 120.000",
-      tag: "Untuk Dijual",
-      tagIcon: "images/jual.svg",
-      location: "FILKOM",
-      locationIcon: "images/lokasi.svg",
-      conditionPercent: 88,
-      conditionText: "88% - Kondisi sangat baik",
-      mainImage:
-        "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1200&q=80",
-      thumbs: [
-        "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=800&q=80",
-      ],
-    },
-    "calculator-casio": {
-      title: "Kalkulator Casio",
-      price: "Rp 55.000",
-      tag: "Untuk Dijual",
-      tagIcon: "images/jual.svg",
-      location: "FILKOM",
-      locationIcon: "images/lokasi.svg",
-      conditionPercent: 92,
-      conditionText: "92% - Kondisi sangat baik",
-      mainImage:
-        "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80",
-      thumbs: [
-        "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=800&q=80",
-      ],
-    },
-    "buku-sabatta": {
-      title: "Buku Sabatta",
-      price: "Rp 95.000",
-      tag: "Untuk Dijual",
-      tagIcon: "images/jual.svg",
-      location: "FMIPA",
-      locationIcon: "images/lokasi.svg",
-      conditionPercent: 86,
-      conditionText: "86% - Kondisi sangat baik",
-      mainImage:
-        "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
-      thumbs: [
-        "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
-      ],
-    },
-    "penggaris-t": {
-      title: "Penggaris T",
-      price: "Rp 18.000",
-      tag: "Untuk Dijual",
-      tagIcon: "images/jual.svg",
-      location: "FT",
-      locationIcon: "images/lokasi.svg",
-      conditionPercent: 84,
-      conditionText: "84% - Kondisi baik",
-      mainImage:
-        "https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?auto=format&fit=crop&w=1200&q=80",
-      thumbs: [
-        "https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?auto=format&fit=crop&w=800&q=80",
-      ],
-    },
-    "jas-lab": {
-      title: "Jas Lab",
-      price: "Rp 25.000/hari",
-      tag: "Untuk Disewa",
-      tagIcon: "images/sewa.svg",
-      location: "FK",
-      locationIcon: "images/lokasi.svg",
-      conditionPercent: 90,
-      conditionText: "90% - Kondisi sangat baik",
-      mainImage:
-        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
-      thumbs: [
-        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
-      ],
-    },
-    tablet: {
-      title: "Tablet",
-      price: "Rp 90.000/hari",
-      tag: "Untuk Disewa",
-      tagIcon: "images/sewa.svg",
-      location: "FILKOM",
-      locationIcon: "images/lokasi.svg",
-      conditionPercent: 87,
-      conditionText: "87% - Kondisi sangat baik",
-      mainImage:
-        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
-      thumbs: [
-        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
-      ],
-    },
-    keyboard: {
-      title: "Keyboard Mechanical",
-      price: "Rp 200.000",
-      tag: "Untuk Dijual",
-      tagIcon: "images/jual.svg",
-      location: "FILKOM",
-      locationIcon: "images/lokasi.svg",
-      conditionPercent: 91,
-      conditionText: "91% - Kondisi sangat baik",
-      mainImage:
-        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
-      thumbs: [
-        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
-      ],
-    },
-    flashdisk: {
-      title: "Flashdisk 64GB",
-      price: "Rp 35.000",
-      tag: "Untuk Dijual",
-      tagIcon: "images/jual.svg",
-      location: "FILKOM",
-      locationIcon: "images/lokasi.svg",
-      conditionPercent: 83,
-      conditionText: "83% - Kondisi baik",
-      mainImage:
-        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
-      thumbs: [
-        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
-      ],
-    },
-  };
 
   const detailTitle = document.querySelector("#detail-title");
   const detailPrice = document.querySelector("#detail-price");
@@ -268,6 +292,10 @@
   const detailThumbs = document.querySelector("#detail-thumbs");
   const detailProgress = document.querySelector("#detail-progress");
   const detailCondition = document.querySelector("#detail-condition");
+  const sellerAvatar = document.querySelector("#seller-avatar");
+  const sellerName = document.querySelector("#seller-name");
+  const sellerInfo = document.querySelector("#seller-info");
+  const sellerChatLink = document.querySelector("#seller-chat-link");
   const recommendationsGrid = document.querySelector("#recommendations-grid");
 
   if (
@@ -298,6 +326,19 @@
           `<div class="thumb"><img src="${src}" alt="${data.title}" /></div>`,
       )
       .join("");
+
+    const seller = sellers[data.sellerKey] || sellers.prabu;
+    if (seller && sellerAvatar && sellerName && sellerInfo) {
+      sellerAvatar.src = seller.avatar;
+      sellerAvatar.alt = seller.name;
+      sellerName.textContent = seller.name;
+      sellerInfo.textContent = seller.info;
+    }
+
+    if (sellerChatLink) {
+      const sellerKey = data.sellerKey || "prabu";
+      sellerChatLink.href = `chat-room.html?user=${sellerKey}&item=${key}`;
+    }
   }
 
   const recommendationKeys = [
@@ -322,9 +363,12 @@
           </div>
           <div class="item-name">${data.title}</div>
           <div class="item-price">${data.price}</div>
-          <div class="item-location">
-            <img src="${data.locationIcon}" alt="Lokasi" />
-            <span>${data.location}</span>
+          <div class="item-row">
+            <div class="item-location">
+              <img src="${data.locationIcon}" alt="Lokasi" />
+              <span>${data.location}</span>
+            </div>
+            <div class="item-rating">${data.conditionPercent}%</div>
           </div>
           <div class="item-progress">
             <span style="width: ${data.conditionPercent}%"></span>
